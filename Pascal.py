@@ -1,4 +1,5 @@
 # Треугольник Паскаля (сколько столбцов/ строк)
+
 def com(n, k):
     if k == 0 :
         return 1
@@ -21,5 +22,7 @@ def main():
     print('pascals_triangle_rows(',a,')=',res)
     
 
-main()
+
+if __name__=='__main__':
+    main()
 
